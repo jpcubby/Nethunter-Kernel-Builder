@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "MikasaNethunter",
-      "repo": "https://github.com/noophyy/mikasa_kernel_realme2_c1.git",
-      "branch": "Light",
-      "device": "mikasa"
+      "name": "Fogohunter",
+      "repo": "https://github.com/jpcubby/android_device_motorola_sm4350-common-kernel.git",
+      "branch": "Master",
+      "device": "fogo"
     },
     "withKernelSU": false,
     "toolchains": [
