@@ -15,7 +15,7 @@ jobs:
       repos: ${{ steps.generate-matrix.outputs.repos }}
     steps:
       - name: "😄 Checkout"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: "😆 Generate Matrix"
         id: generate-matrix
@@ -31,7 +31,7 @@ jobs:
       - Set-repos
     strategy:
       max-parallel: 2
-      fail-fast: false
+      fail-fast: true
       matrix:
         repos: ${{ fromJSON(needs.Set-repos.outputs.repos) }}
     env:
