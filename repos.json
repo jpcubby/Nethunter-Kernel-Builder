@@ -1,7 +1,7 @@
 [  {
     "kernelSource": {
       "name": "Fogohunter",
-      "repo": "https://github.com/jpcubby/android_device_motorola_sm4350-common-kernel.git",
+      "repo": "https://github.com/jpcubby/kernel-moto-fogo",
       "branch": "android-11-release-rrvs",
       "device": "fogo"
     },
